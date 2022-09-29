@@ -2,7 +2,7 @@
 import numpy as np
 from PIL import Image, ImageDraw
   
-tempImg=Image.open("DSC_0115.jpg")
+tempImg=Image.open("image.jpg")
 #display(img)
 left_1 = 500
 top_1 = 30
