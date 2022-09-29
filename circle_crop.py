@@ -20,7 +20,7 @@ img_arr =np.array(img)
 lum_img_arr =np.array(lum_img)
 final_img_arr = np.dstack((img_arr,lum_img_arr))
 photo = Image.fromarray(final_img_arr)
-finalPhoto = photo.convert('RGB")
+finalPhoto = photo.convert('RGB')
 finalPhoto.save('output.jpg',
                format = 'JPEG',
                  quality = 100)
